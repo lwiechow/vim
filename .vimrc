@@ -1,4 +1,15 @@
+set backspace=indent,eol,start
+
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 set number
+
+execute pathogen#infect()
+
+set background=dark
+colorscheme solarized
+
+set encoding=utf8
+
 " An example for a vimrc file.
 "
 " Maintainer:	Bram Moolenaar <Bram@vim.org>
